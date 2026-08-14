@@ -3,11 +3,10 @@
 
 📘 **Midlands Infrastructure Group — MIG Cement Demand Forecasting Project**
 
-This project is based on cement operations data from **Midlands Infrastructure Group (MIG)** — a Tier‑1 UK civil engineering company that runs 25–40 active construction sites. Cement is a critical material for them, but demand is very unpredictable because of weather, pour schedules, and inventory issues.  
+This project is based on cement operations data from **Midlands Infrastructure Group (MIG) — a Tier‑1 UK civil engineering company that runs 25–40 active construction sites. Cement is a critical material for them, but demand is very unpredictable because of weather, pour schedules, and inventory issues.  
 
 The goal of this project is to help MIG forecast cement demand better so they can reduce waste, avoid stockouts, and plan more efficiently.
 
----
 
 ## 🏗️ Project Overview
 
@@ -34,7 +33,6 @@ The final goal is to produce:
 - Inventory optimisation logic  
 - A deployable pipeline (AWS)
 
----
 
 ## 🎯 Project Objectives
 
@@ -44,16 +42,13 @@ The final goal is to produce:
 - **30% reduction** in cement write‑offs  
 - A dashboard that operations managers can actually use  
 
----
-
 ## 📂 Repository Structure
 
-```
 MIG_cement_TeamB/
 │
 ├── Notebooks/
-│   ├── EDA.ipynb
-│   └── Cleaning.ipynb
+│   ├── MIG_cleanEDA.ipynb
+│  
 │
 ├── data/
 │   └── MIG_Cement_Records.db
@@ -68,9 +63,6 @@ MIG_cement_TeamB/
 │   └── app.py
 │
 └── README.md
-```
-
----
 
 ## 📊 Data Dictionary  
 
@@ -109,7 +101,6 @@ MIG_cement_TeamB/
 |--------|-------------|
 | **cement_type** | Cement type code (CEM_I, CEM_II, CEM_III) |
 
----
 
 ## 🔧 Workflow (Step‑by‑Step)
 
@@ -122,13 +113,12 @@ MIG_cement_TeamB/
 - Validate inventory logic  
 - Merge tables into one dataset  
 
----
 
 ### **2. Exploratory Data Analysis (EDA)**
+- Check seasonality  
 - Plot consumption trends  
 - Compare sites  
 - Look at weather impact  
-- Check seasonality  
 - Identify outliers  
 - Understand behaviour patterns  
 
